@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace backend.model
+namespace backend.model.teacherModels
 {
     public class TeacherAccount
     {
