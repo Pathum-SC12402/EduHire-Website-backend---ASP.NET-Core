@@ -15,6 +15,6 @@ namespace backend.model
         [Required(ErrorMessage = "Password is required")]
         [StringLength(100, ErrorMessage = "Password must be at least 6 characters long", MinimumLength = 6)]
         public required string Password { get; set; }
-        public TeacherData? TeacherData { get; set; }
+        public TeacherData? TeacherData { get; set; } = new TeacherData();
     }
 }
