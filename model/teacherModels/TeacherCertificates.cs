@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace backend.model
+namespace backend.model.teacherModels
 {
     public class TeacherCertificates
     {
